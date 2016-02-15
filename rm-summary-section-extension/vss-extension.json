@@ -1,0 +1,43 @@
+{
+	"manifestVersion": 1,
+	"id": "sample-extension",
+	"version": "0.1.2",
+	"name": "RM deployment status - summary",
+	"description": "RM summary section extension sample",
+	"publisher": "openalm",
+	"targets": 
+	[
+		{
+			"id": "Microsoft.VisualStudio.Services"
+		}
+	],
+	"contributions": 
+	[
+		{
+			"id": "rm-summary-section-sample",
+			"type": "ms.vss-releaseManagement-web.release-summary-tab",
+			"targets": [ "ms.vss-releaseManagement-web.release-details-view" ],
+			"properties": 
+			{
+				"name": "LaunchDarkly",
+				"uri": "index.html",
+				"order": "99"
+			}
+		}
+	],
+	"files": 
+	[
+		{
+			"path": "index.html", "addressable": true
+		},
+		{
+			"path": "scripts", "addressable": true
+		},
+		{
+			"path": "ReleaseManagement", "addressable": true
+		},
+		{
+			"path": "sdk/scripts", "addressable": true
+		}
+	]
+}
