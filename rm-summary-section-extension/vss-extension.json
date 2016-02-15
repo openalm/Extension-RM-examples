@@ -19,7 +19,7 @@
 			"targets": [ "ms.vss-releaseManagement-web.release-details-summary-tab" ],
 			"properties": 
 			{
-				"name": "LaunchDarkly",
+				"name": "Deployment status",
 				"uri": "index.html",
 				"order": "99"
 			}
