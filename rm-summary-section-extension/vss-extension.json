@@ -1,6 +1,6 @@
 {
 	"manifestVersion": 1,
-	"id": "sample-extension",
+	"id": "rm-summary-section-extension-sample",
 	"version": "0.1.2",
 	"name": "RM deployment status - summary",
 	"description": "RM summary section extension sample",
@@ -15,8 +15,8 @@
 	[
 		{
 			"id": "rm-summary-section-sample",
-			"type": "ms.vss-releaseManagement-web.release-summary-tab",
-			"targets": [ "ms.vss-releaseManagement-web.release-details-view" ],
+			"type": "ms.vss-releaseManagement-web.release-summary-section",
+			"targets": [ "ms.vss-releaseManagement-web.release-details-summary-tab" ],
 			"properties": 
 			{
 				"name": "LaunchDarkly",
@@ -32,9 +32,6 @@
 		},
 		{
 			"path": "scripts", "addressable": true
-		},
-		{
-			"path": "ReleaseManagement", "addressable": true
 		},
 		{
 			"path": "sdk/scripts", "addressable": true
