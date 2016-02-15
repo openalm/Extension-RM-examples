@@ -1,7 +1,7 @@
 {
 	"manifestVersion": 1,
 	"id": "rm-summary-section-extension-sample",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"name": "RM deployment status - summary",
 	"description": "RM summary section extension sample",
 	"publisher": "openalm",
